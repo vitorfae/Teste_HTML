@@ -1,0 +1,82 @@
+HTML
+
+<style> - Adicionar cores e detalhes com CSS.
+para modificar cores de ID - preciso usar o #nome-da-id {background: red;} - nesse caso estou falando que o elemento com ID nome-da-id vai estar sublinhado com a cor vermelha
+
+para modificar cores de classes - preciso usar o .nome-da-classe {color: green;} - Nesse caso estou falando que os elementos com a classe nome-da-classe vão estar com as letras de cor verde.
+
+Posso usar a tag H1 e todos os paragráfos do meu código se tornam na cor que eu desejar.
+
+para adicionar ID ou classe em algum elemento, deve ser feito no momento de abertura do mesmo, exemplo da escrita grande da Página "Ativo Imobilizado"
+
+<h1>Ativo Imobilizado</h1> - escrita ficará normal em preto.
+<h1 id="nome-da-id">Ativo Imobilizado</h1> - escrita estaria em preto, mas sublinhado da cor vermelha conforme a primeira indicação.
+<h1 class="nome-da-classe">Ativo Imobilizado</h1> - Escrita estaria em verde, mas o fundo branco normalmente. conforme segunda indicação.
+
+<br> Quebra de linha.
+<p>paragrafo</p> - diz que o que está dentro do corpo é um paragrafo.
+<b>texto negrito</b> - deixa o texto em negrito, caso queira mudar a cor apenas de uma frase. Vou citar um exemplo abaixo.
+
+<p>Vitor Matheus <b>Faé Ulrich</b></p> - nesse caso escrevi o meu nome completo e o que vai exibir na tela é Vitor Matheus normal e Faé Ulrich em negrito.
+
+Caso queira mudar a cor do sublinhado precisamos fazer o seguinte:
+
+<p>Vitor Matheus <b class="nome-da-classe">Faé Ulrich</b></p> - Nesse caso o Vitor Matheus continua igual e o Faé Ulrich está na cor verde, conforme citado na segunda indicação. por conta da classe. Lembrando que o ID é único, mas  a classe podemos usar quantas vezes quiser.
+
+Cada vez que fechar o </p> e criar um novo <p> ele pula uma linha.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CABEÇALHOS
+
+<h1></h1> Título
+<h2></h2> Sub-título
+<h3></h3> Sub-título do Sub-título
+<h4></h4> ....
+<h5></h5> ....
+<h6></h6> ....
+
+Altera o tamanho do título, mas não do parágrafo.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TAGS IMPORTANTES E SEMÂNTICA DE TEXTOS
+
+NEGRITO:
+Tag (bold)<b></b> deixa as coisas em negrito.
+Tag <strong></strong> deixa a palavra mais forte, no sentido de leitor de tela para cegos ler de maneira mais forte, como a palavra "cuidado"
+
+por exemplo a tag bold muda o estado físico da palavra, apenas deixando em negrito e a tag Strong muda o estado lógico da palavra, no sentido de mudar o entendimento.
+
+ITALICO:
+Tag <i></i> deixa o texto apenas em negrito.
+Tag <em></em> deixa o texto em negrito e também deixa a palavra mais forte da mesma maneira que o negrito
+
+LINK:
+
+Tag <a></a>, mas deve ser escrita da seguinte forma: <a href='www.LinkDaPaginaQueDesejar'>link para tal página</a>. Abre na mesma guia e "fecha o site"
+
+Tag target, para abrir o link em uma nova guia, basta apenas usar a tag target após o link ex: <a href='www.LinkDaPaginaQueDesejar' target='_blank'>link para tal página</a>
+
+blank é para abrir em uma nova guia. Temos a teg "rel" (relaciona os documentos) no lugar do target, mas serve para links com patrocínio, com acesso apenas a links diretos e privados, não ser seguidos pelos buscadores.
+
+IMAGENS
+
+<img src="" alt=""> para adicionar imagens em qualquer local. EX:
+
+<img src="local ou link onde está armazenado a imagem" alt="expecificação para deficientes visuais, onde iremos descrever o que tem na imagem (texto alternativo)">
+
+para configurar altura e largura da imagem:
+
+<img src="" alt="" width="50" height="44"> width=Largura - height=altura para saber o tamanho, devemos clicar sobre a imagem e ir em inspecionar elementos, aba computed.
+
+Imagens com links precisa abrir a tag <a> de link e apenas incluir a imagem dentro dela.EX:
+
+<a href="https://www.unoesc.edu.br/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO9ZEQsGHVKyZWLnVqrM-5Sgnk0TFD0c2Ew&s" alt="Logo da UNOESC"></a>
+
+tag imagem vai onde ficaria o texto da tela que daria acesso ao link.
+
+
+
+
+
